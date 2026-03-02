@@ -21,7 +21,7 @@ app.use(helmet());
 
 // 🌍 CORS: يسمح للـ frontend يتصل بالـ backend
 app.use(cors({
-  origin: "http://localhost:3000", // 👈 عدّل حسب الـ frontend
+  origin: "http://localhost:5173", // 👈 عدّل حسب الـ frontend
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));

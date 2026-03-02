@@ -1,0 +1,6 @@
+# تجاهل ملف البيئة
+.env
+
+# تجاهل مجلد node_modules
+/node_modules/
+
